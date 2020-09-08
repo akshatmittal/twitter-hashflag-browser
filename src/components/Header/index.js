@@ -70,7 +70,7 @@ const Heading = ({}) => {
             </Text>
           </div>
           <div>
-            <Text className={classes.integrationsTitle}>Browser all current Twitter hashflags</Text>
+            <Text className={classes.integrationsTitle}>Browse all current Twitter hashflags!</Text>
           </div>
         </div>
       </div>
