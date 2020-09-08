@@ -1,0 +1,43 @@
+{
+  "name": "twitter-hashflags-browser",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "dependencies": {
+    "@geist-ui/react": "^2.0.2",
+    "@geist-ui/react-icons": "^1.0.0",
+    "dayjs": "^1.8.35",
+    "next": "^9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-jss": "^10.4.0",
+    "react-virtuoso": "^0.20.0"
+  },
+  "lint-staged": {
+    "./src/**/*.{js,jsx,css,json,md}": "prettier --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^9.5.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.3.0",
+    "next-compose-plugins": "^2.2.0",
+    "prettier": "^2.1.1"
+  }
+}
