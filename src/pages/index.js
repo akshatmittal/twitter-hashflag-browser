@@ -62,6 +62,12 @@ export default function Home() {
           <meta property="twitter:image" content="https://akshatmittal.com/twitter-hashflag-browser/social.png" />
           <meta property="twitter:site" content="@iakshatmittal" />
           <meta property="twitter:creator" content="@iakshatmittal" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50190232-10"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-50190232-10');`,
+            }}
+          ></script>
         </Head>
         <Menu toggleDarkMode={toggleDarkMode} />
         <Header />
